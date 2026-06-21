@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*Header and Nav Styling*/
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 90, 4);
+    padding-bottom: 0px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 10px 30px;
+}
+
+.tohome {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(236, 236, 236);
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.744);
+    transition: 200ms;
+}
+
+/*Content Layout and Styling*/
+body {
+    background-color: rgb(236, 236, 236);
+}
+img {
+    border-radius: 0px 0px 40px 40px;
+}
+
+
+.content {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background: rgb(197, 197, 197);
+}
+
+.content h2 {
+    margin: 40px 0px 10px 0px;
+    padding-left: 10px;
+}
+
+/*Hero styling on home page*/
+.hero {
+    height: 80vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/images/lasagne.jpg");
+    background-size: contain;
+    background-blend-mode: overlay;
+}
+h3 {
+    padding-bottom: 450px;
+    font-size: 2rem;
+}
+/*list styling*/
+ul li {
+    list-style-type: circle;
+    padding: 0px 5px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    padding: 0px 5px;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding: 4px;
+}
+
+p {
+        padding:0px 10px;
+    }
+
+
+/*Footer Styling*/
+footer {
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(210, 90, 4);
+}
+/*small screen styling*/
+
+@media screen and (max-width: 500px) {
+    h2 {
+        padding-left: 10px;
+    }
+    img {
+        margin: 20px;
+        width: 90%;
+        border-radius: 0px;
+        transition: 200ms;
+    }
+
+    
+
+    ul li {
+        padding: 0px 5px;
+    }
+
+    ol li {
+        margin-bottom: 10px;
+        padding: 0px 5px;
+    }
+
+    .content {
+        border: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    img {
+        transition: 200ms;
+    }
+}
+
+
+
+
