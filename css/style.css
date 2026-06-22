@@ -75,10 +75,11 @@ img {
     background-image: url("/images/lasagne.jpg");
     background-size: contain;
     background-blend-mode: overlay;
+    overflow: hidden;
 }
 h3 {
-    padding-bottom: 450px;
-    font-size: 2rem;
+    padding-bottom: 550px;
+    font-size: 1.5rem;
 }
 /*list styling*/
 ul li {
